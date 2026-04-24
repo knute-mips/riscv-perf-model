@@ -27,7 +27,7 @@ under development.
    ```
 1. Before building, make sure the following packages are installed:
 
-   * Sparta v2: https://github.com/sparcians/map?tab=readme-ov-file#simple
+   * Sparta v2.1: https://github.com/sparcians/map?tab=readme-ov-file#simple
    * (cmake) cmake v3.22
    * (libboost-all-dev) boost 1.78.0
    * (yaml-cpp-dev) YAML CPP 0.7.0
@@ -35,6 +35,10 @@ under development.
    * (libsqlite3-dev) SQLite3 3.37.2
    * (libhdf5-dev) HDF5 1.10.7
    * (clang++) Clang, Version: 14.0.0 OR (g++) v13.0.0 or greater
+   * (flex) flex 2.6.4
+   * (bison) bison 3.8.2
+
+1. Confirm that map/sparta branch is `map_v2.0.21`
 
 1. Build Olympia in one of three modes (see below):
    * `release`: Highly optimized, no debug w/ LTO (if supported)
